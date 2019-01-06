@@ -792,7 +792,7 @@ DocType: Timesheet Detail,Hrs,Std
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +410,Please select Company,Bitte Firma auswählen
 DocType: Stock Entry Detail,Difference Account,Differenzkonto
 DocType: Purchase Invoice,Supplier GSTIN,Lieferant GSTIN
-apps/erpnext/erpnext/projects/doctype/task/task.py +50,Cannot close task as its dependant task {0} is not closed.,"Aufgabe kann nicht geschlossen werden, da die von ihr abhängige Aufgabe {0} nicht geschlossen ist."
+apps/erpnext/erpnext/projects/doctype/task/task.py +50,Cannot close task as its dependant task {0} is not closed.,"Vorgang kann nicht geschlossen werden, da die von ihr abhängige Vorgang {0} nicht geschlossen ist."
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +435,Please enter Warehouse for which Material Request will be raised,"Bitte das Lager eingeben, für das eine Materialanfrage erhoben wird"
 DocType: Work Order,Additional Operating Cost,Zusätzliche Betriebskosten
 DocType: Lab Test Template,Lab Routine,Laborroutine
@@ -1465,7 +1465,7 @@ apps/erpnext/erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invo
 DocType: Medical Code,Medical Code Standard,Medizinischer Code Standard
 DocType: Soil Texture,Clay Composition (%),Tonzusammensetzung (%)
 DocType: Item Group,Item Group Defaults,Artikelgruppe Voreinstellung
-apps/erpnext/erpnext/assets/doctype/asset_maintenance/asset_maintenance.js +102,Please save before assigning task.,Bitte vor dem Zuweisen der Aufgabe speichern.
+apps/erpnext/erpnext/assets/doctype/asset_maintenance/asset_maintenance.js +102,Please save before assigning task.,Bitte vor dem Zuweisen speichern.
 apps/erpnext/erpnext/stock/report/stock_balance/stock_balance.py +89,Balance Value,Bilanzwert
 DocType: Lab Test,Lab Technician,Labortechniker
 apps/erpnext/erpnext/stock/report/item_prices/item_prices.py +40,Sales Price List,Verkaufspreisliste
@@ -1807,7 +1807,7 @@ DocType: Item Attribute Value,"This will be appended to the Item Code of the var
 DocType: Salary Slip,Net Pay (in words) will be visible once you save the Salary Slip.,"Nettolohn (in Worten) wird angezeigt, sobald Sie die Gehaltsabrechnung speichern."
 DocType: Delivery Note,Is Return,Ist Rückgabe
 apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.py +89,Caution,Achtung
-apps/erpnext/erpnext/agriculture/doctype/disease/disease.py +17,Start day is greater than end day in task '{0}',Starttag ist größer als Endtag in Aufgabe &#39;{0}&#39;
+apps/erpnext/erpnext/agriculture/doctype/disease/disease.py +17,Start day is greater than end day in task '{0}',Starttag ist größer als Endtag in Vorgang &#39;{0}&#39;
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js +893,Return / Debit Note,Return / Lastschrift
 DocType: Price List Country,Price List Country,Preisliste Land
 DocType: Item,UOMs,Maßeinheiten
@@ -2877,7 +2877,7 @@ DocType: Soil Texture,Silt,Schlick
 ,Qty to Order,Zu bestellende Menge
 DocType: Period Closing Voucher,"The account head under Liability or Equity, in which Profit/Loss will be booked","Der Kontenkopf unter Eigen- oder Fremdkapital, in dem Gewinn / Verlust verbucht wird"
 apps/erpnext/erpnext/accounts/doctype/budget/budget.py +44,Another Budget record '{0}' already exists against {1} '{2}' and account '{3}' for fiscal year {4},Ein weiterer Budgeteintrag &#39;{0}&#39; existiert bereits für {1} &#39;{2}&#39; und für &#39;{3}&#39; für das Geschäftsjahr {4}
-apps/erpnext/erpnext/config/projects.py +36,Gantt chart of all tasks.,Gantt-Diagramm aller Aufgaben
+apps/erpnext/erpnext/config/projects.py +36,Gantt chart of all tasks.,Gantt-Diagramm aller Vorgänge
 DocType: Opportunity,Mins to First Response,Minuten zum First Response
 DocType: Pricing Rule,Margin Type,Margenart
 apps/erpnext/erpnext/projects/doctype/project/project_dashboard.html +15,{0} hours,{0} Stunden
@@ -3838,7 +3838,7 @@ DocType: Normal Test Items,Result Value,Ergebnis Wert
 DocType: Hotel Room,Hotels,Hotels
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center_tree.js +22,New Cost Center Name,Neuer Kostenstellenname
 DocType: Leave Control Panel,Leave Control Panel,Urlaubsverwaltung
-DocType: Project,Task Completion,Aufgabenerledigung
+DocType: Project,Task Completion,Vorgangserfüllung
 apps/erpnext/erpnext/templates/includes/product_page.js +31,Not in Stock,Nicht lagernd
 DocType: Volunteer,Volunteer Skills,Freiwillige Fähigkeiten
 DocType: Additional Salary,HR User,Nutzer Personalabteilung
@@ -4156,7 +4156,7 @@ DocType: Employee Attendance Tool,Unmarked Attendance,Nicht gekennzeichnete Anwe
 apps/erpnext/erpnext/hr/doctype/payroll_entry/payroll_entry.js +256,Creating Payment Entries......,Zahlungseinträge erstellen ......
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py +100,Researcher,Wissenschaftler
 DocType: Program Enrollment Tool Student,Program Enrollment Tool Student,Programm-Enrollment-Tool Studenten
-apps/erpnext/erpnext/assets/doctype/asset_maintenance/asset_maintenance.py +16,Start date should be less than end date for task {0},Startdatum sollte weniger als Enddatum für Aufgabe {0} sein
+apps/erpnext/erpnext/assets/doctype/asset_maintenance/asset_maintenance.py +16,Start date should be less than end date for task {0},Startdatum sollte weniger als Enddatum für Vorgang {0} sein
 ,Consolidated Financial Statement,Konsolidierter Finanzbericht
 apps/erpnext/erpnext/hr/doctype/job_applicant/job_applicant.py +25,Name or Email is mandatory,Name oder E-Mail-Adresse ist zwingend erforderlich
 DocType: Instructor,Instructor Log,Kursleiterprotokoll
@@ -4521,7 +4521,7 @@ DocType: Work Order,Material Transferred for Manufacturing,Material zur Herstell
 apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +49,Account {0} does not exists,Konto {0} existiert nicht
 apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.js +1608,Select Loyalty Program,Wählen Sie Treueprogramm
 DocType: Project,Project Type,Projekttyp
-apps/erpnext/erpnext/projects/doctype/task/task.py +157,Child Task exists for this Task. You can not delete this Task.,Für diese Aufgabe existiert eine untergeordnete Aufgabe. Sie können diese Aufgabe daher nicht löschen.
+apps/erpnext/erpnext/projects/doctype/task/task.py +157,Child Task exists for this Task. You can not delete this Task.,Für diesen Vorgang existiert ein untergeordneter Vorgang. Sie können diesen Vorgang daher nicht löschen.
 apps/erpnext/erpnext/setup/doctype/sales_person/sales_person.py +17,Either target qty or target amount is mandatory.,Entweder Zielstückzahl oder Zielmenge ist zwingend erforderlich.
 apps/erpnext/erpnext/config/projects.py +56,Cost of various activities,Aufwendungen für verschiedene Tätigkeiten
 apps/erpnext/erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py +60,"Setting Events to {0}, since the Employee attached to the below Sales Persons does not have a User ID{1}","Einstellen Events auf {0}, da die Mitarbeiter auf die beigefügten unter Verkaufs Personen keine Benutzer-ID {1}"
@@ -4780,7 +4780,7 @@ DocType: Expense Claim,Total Sanctioned Amount,Summe genehmigter Beträge
 ,Purchase Analytics,Einkaufsanalyse
 DocType: Sales Invoice Item,Delivery Note Item,Lieferschein-Artikel
 apps/erpnext/erpnext/accounts/doctype/subscription/subscription.py +373,Current invoice {0} is missing,Die aktuelle Rechnung {0} fehlt
-DocType: Asset Maintenance Log,Task,Aufgabe
+DocType: Asset Maintenance Log,Task,Vorgang
 DocType: Purchase Taxes and Charges,Reference Row #,Referenz-Zeile #
 apps/erpnext/erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py +76,Batch number is mandatory for Item {0},Chargennummer ist zwingend erforderlich für Artikel {0}
 apps/erpnext/erpnext/setup/doctype/sales_person/sales_person.js +22,This is a root sales person and cannot be edited.,Dies ist ein Root-Vertriebsmitarbeiter und kann nicht bearbeitet werden.
@@ -4974,7 +4974,7 @@ DocType: Employee Boarding Activity,Required for Employee Creation,Erforderlich 
 apps/erpnext/erpnext/accounts/doctype/account/account.py +214,Account Number {0} already used in account {1},Die Kontonummer {0} wurde bereits im Konto {1} verwendet.
 DocType: GoCardless Mandate,Mandate,Mandat
 DocType: Hotel Room Reservation,Booked,Gebucht
-DocType: Detected Disease,Tasks Created,Aufgaben erstellt
+DocType: Detected Disease,Tasks Created,Vorgänge erstellt erstellt
 DocType: Purchase Invoice Item,Rate,Preis
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py +82,Intern,Praktikant
 DocType: Delivery Stop,Address Name,Adress-Name
@@ -5015,7 +5015,7 @@ DocType: Employee Tax Exemption Declaration Category,Employee Tax Exemption Decl
 apps/erpnext/erpnext/accounts/doctype/sales_invoice/pos.py +451,All Territories,Alle Regionen
 apps/erpnext/erpnext/hr/utils.py +216,Please set leave policy for employee {0} in Employee / Grade record,Legen Sie die Abwesenheitsrichtlinie für den Mitarbeiter {0} im Mitarbeiter- / Notensatz fest
 apps/erpnext/erpnext/public/js/controllers/transaction.js +1472,Invalid Blanket Order for the selected Customer and Item,Ungültiger Blankoauftrag für den ausgewählten Kunden und Artikel
-apps/erpnext/erpnext/projects/doctype/task/task_tree.js +49,Add Multiple Tasks,Mehrere Aufgaben hinzufügen
+apps/erpnext/erpnext/projects/doctype/task/task_tree.js +49,Add Multiple Tasks,Mehrere Vorgänge hinzufügen
 DocType: Purchase Invoice,Items,Artikel
 apps/erpnext/erpnext/crm/doctype/contract/contract.py +38,End Date cannot be before Start Date.,Das Enddatum darf nicht vor dem Startdatum liegen.
 apps/erpnext/erpnext/education/doctype/program_enrollment/program_enrollment.py +33,Student is already enrolled.,Student ist bereits eingetragen sind.
@@ -5089,7 +5089,7 @@ DocType: Daily Work Summary Settings,Daily Work Summary Settings,tägliche Arbei
 apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1298,Selected Price List should have buying and selling fields checked.,Die ausgewählte Preisliste sollte die Kauf- und Verkaufsfelder überprüft haben.
 apps/erpnext/erpnext/controllers/buying_controller.py +693,Please enter Reqd by Date,Bitte geben Sie Requd by Date ein
 DocType: Payment Entry,Internal Transfer,Interner Transfer
-DocType: Asset Maintenance,Maintenance Tasks,Wartungsaufgaben
+DocType: Asset Maintenance,Maintenance Tasks,Wartungsvorgänge
 apps/erpnext/erpnext/setup/doctype/territory/territory.py +19,Either target qty or target amount is mandatory,Entweder Zielstückzahl oder Zielmenge ist zwingend erforderlich
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +627,Please select Posting Date first,Bitte zuerst ein Buchungsdatum auswählen
 apps/erpnext/erpnext/public/js/account_tree_grid.js +209,Opening Date should be before Closing Date,Eröffnungsdatum sollte vor dem Abschlussdatum liegen
@@ -5353,7 +5353,7 @@ DocType: Hotel Room Amenity,Hotel Room Amenity,Zimmerausstattung
 DocType: Budget,Action if Annual Budget Exceeded on MR,"Aktion, wenn das Jahresbudget für MR überschritten wurde"
 DocType: Payment Entry,Account Paid From,Ausgangskonto
 DocType: Purchase Order Item Supplied,Raw Material Item Code,Rohmaterial-Artikelnummer
-DocType: Task,Parent Task,Übergeordnete Aufgabe
+DocType: Task,Parent Task,Übergeordneter Vorgang
 DocType: Journal Entry,Write Off Based On,Abschreibung basierend auf
 apps/erpnext/erpnext/utilities/activation.py +65,Make Lead,Lead erstellen
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +119,Print and Stationery,Drucken und Papierwaren
@@ -5855,7 +5855,7 @@ DocType: Fertilizer,Density (if liquid),Dichte (falls flüssig)
 apps/erpnext/erpnext/education/doctype/course/course.py +20,Total Weightage of all Assessment Criteria must be 100%,Insgesamt weightage aller Bewertungskriterien muss 100% betragen
 DocType: Purchase Order Item,Last Purchase Rate,Letzter Anschaffungspreis
 DocType: Account,Asset,Vermögenswert
-DocType: Project Task,Task ID,Aufgaben-ID
+DocType: Project Task,Task ID,Vorgangs-ID
 apps/erpnext/erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py +84,Stock cannot exist for Item {0} since has variants,"Für Artikel {0} kann es kein Lager geben, da es Varianten gibt"
 DocType: Healthcare Practitioner,Mobile,Mobile
 ,Sales Person-wise Transaction Summary,Vertriebsmitarbeiterbezogene Zusammenfassung der Transaktionen
@@ -6056,7 +6056,7 @@ DocType: Payment Request,payment_url,payment_url
 DocType: Exchange Rate Revaluation Account,Balance In Account Currency,Guthaben in Kontowährung
 apps/erpnext/erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py +188,Please add a Temporary Opening account in Chart of Accounts,Bitte fügen Sie ein vorübergehendes Eröffnungskonto im Kontenplan hinzu
 DocType: Customer,Customer Primary Contact,Hauptkontakt des Kunden
-DocType: Project Task,View Task,Aufgabe anzeigen
+DocType: Project Task,View Task,Vorgang anzeigen
 apps/erpnext/erpnext/crm/report/campaign_efficiency/campaign_efficiency.py +22,Opp/Lead %,Chance / Lead %
 DocType: Bank Guarantee,Bank Account Info,Bankkontodaten
 DocType: Bank Guarantee,Bank Guarantee Type,Art der Bankgarantie
@@ -6080,7 +6080,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +221,Student Batches,Studentench
 DocType: Pricing Rule,Margin Rate or Amount,Marge oder Betrag
 apps/erpnext/erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.py +48,'To Date' is required,"""Bis-Datum"" ist erforderlich,"
 DocType: Packing Slip,"Generate packing slips for packages to be delivered. Used to notify package number, package contents and its weight.","Packzettel für zu liefernde Pakete generieren. Wird verwendet, um Paketnummer, Packungsinhalt und das Gewicht zu dokumentieren."
-apps/erpnext/erpnext/projects/doctype/project/project.py +90,Task weight cannot be negative,Aufgabengewicht kann nicht negativ sein
+apps/erpnext/erpnext/projects/doctype/project/project.py +90,Task weight cannot be negative,Vorgangsgewicht kann nicht negativ sein
 DocType: Sales Invoice Item,Sales Order Item,Kundenauftrags-Artikel
 DocType: Salary Slip,Payment Days,Zahlungsziel
 DocType: Stock Settings,Convert Item Description to Clean HTML,Elementbeschreibung in HTML bereinigen
