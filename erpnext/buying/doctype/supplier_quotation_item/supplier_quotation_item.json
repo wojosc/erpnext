@@ -56,7 +56,9 @@
   "weight_uom",
   "warehouse_and_reference",
   "warehouse",
+  "accounting_dimensions_section",
   "project",
+  "section_break_72",
   "prevdoc_doctype",
   "material_request",
   "sales_order",
@@ -382,11 +384,21 @@
    "print_hide": 1
   },
   {
+   "collapsible": 1,
+   "fieldname": "accounting_dimensions_section",
+   "fieldtype": "Section Break",
+   "label": "Accounting Dimensions"
+  },
+  {
    "fieldname": "project",
    "fieldtype": "Link",
    "label": "Project",
    "options": "Project",
    "print_hide": 1
+  },
+  {
+   "fieldname": "section_break_72",
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "prevdoc_doctype",
@@ -533,7 +545,7 @@
  "idx": 1,
  "istable": 1,
  "links": [],
- "modified": "2020-04-07 18:35:51.175947",
+ "modified": "2020-05-13 09:35:51.175947",
  "modified_by": "Administrator",
  "module": "Buying",
  "name": "Supplier Quotation Item",
